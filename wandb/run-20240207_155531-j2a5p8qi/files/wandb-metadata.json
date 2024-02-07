@@ -1,0 +1,101 @@
+{
+    "os": "Linux-6.6.6-76060606-generic-x86_64-with-glibc2.17",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-02-07T12:55:35.749194",
+    "startedAt": "2024-02-07T12:55:31.786683",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "pop-os",
+    "username": "novus",
+    "executable": "/home/novus/miniconda3/envs/novus/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2.199666666666666,
+        "min": 800.0,
+        "max": 4500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.2,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.199,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.199,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.199,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.199,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.2,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.199,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.199,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.2,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.199,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.199,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2.203,
+            "min": 800.0,
+            "max": 4500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 430.18115615844727,
+            "used": 54.187156677246094
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 with Max-Q Design",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 with Max-Q Design",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.464332580566406
+    }
+}
