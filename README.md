@@ -10,7 +10,7 @@ This repository contains a project that utilizes a fine-tuned GPT-2 model on a S
 2. [FastAPI Framework](#fastapi-framework)
 3. [User Interface](#user-interface)
 4. [Getting Started](#getting-started)
-5. [Usage](#usage)
+5. [API Endpoints](#api-endpoints)
 6. [Contributing](#contributing)
 7. [License](#license)
 
@@ -51,24 +51,51 @@ To get started with the project, follow these steps:
 
 4. Access the user interface at `http://localhost:8000` and start interacting with the model.
 
-## Usage
+## API Endpoints
 
-### API Endpoints
+### 1. Talk to Shakespeare
 
-- **Endpoint 1:** `/generate_text`
-  - Method: POST
-  - Description: Generate Shakespearean text based on input prompts.
+- **Endpoint:** `/`
+  - Method: GET
+  - Description: Get a simple response from Shakespeare.
   - Example:
 
     ```bash
-    curl -X POST "http://localhost:8000/generate_text" -H "Content-Type: application/json" -d '{"prompt": "To be or not to be"}'
+    curl -X GET "http://localhost:8000/"
     ```
 
-### User Interface
+### 2. Send Text
 
-1. Access the user interface at `http://localhost:8000`.
-2. Input your desired prompt in the provided text box.
-3. Click the "Generate" button to receive Shakespearean-style text.
+- **Endpoint:** `/send-text`
+  - Method: POST
+  - Description: Receive and return the received text as is.
+  - Example:
+
+    ```bash
+    curl -X POST "http://localhost:8000/send-text" -H "Content-Type: application/json" -d '{"text": "To be or not to be"}'
+    ```
+
+### 3. Send Text Length
+
+- **Endpoint:** `/send-text-len`
+  - Method: POST
+  - Description: Calculate and return the length of the received text.
+  - Example:
+
+    ```bash
+    curl -X POST "http://localhost:8000/send-text-len" -H "Content-Type: application/json" -d '{"text": "To be or not to be"}'
+    ```
+
+### 4. Send Model Response
+
+- **Endpoint:** `/send-model-response`
+  - Method: POST
+  - Description: Generate Shakespearean-style text based on the received input using the fine-tuned GPT-2 model.
+  - Example:
+
+    ```bash
+    curl -X POST "http://localhost:8000/send-model-response" -H "Content-Type: application/json" -d '{"text": "To be or not to be"}'
+    ```
 
 ## Contributing
 
