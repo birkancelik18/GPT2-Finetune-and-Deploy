@@ -33,23 +33,30 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/birkancelik18/model_finetune_deploy.git
     cd your-repo
     ```
 
-2. Install the required dependencies:
+2. Create and activate a conda environment:
+
+    ```bash
+    conda create --name shakespeare-gpt2-env python=3.8
+    conda activate shakespeare-gpt2-env
+    ```
+
+3. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Run the FastAPI application:
+4. Run the FastAPI application:
 
     ```bash
     uvicorn main:app --reload
     ```
 
-4. Open the `index.html` file in your browser and start interacting with the model.
+5. Open the `index.html` file in your browser and start interacting with the model.
 
 ## API Endpoints
 
