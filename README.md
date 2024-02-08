@@ -40,7 +40,7 @@ To get started with the project, follow these steps:
 2. Create and activate a conda environment:
 
     ```bash
-    conda create --name shakespeare-gpt2-env python=3.8
+    conda create --name shakespeare-gpt2-env
     conda activate shakespeare-gpt2-env
     ```
 
