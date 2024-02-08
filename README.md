@@ -33,8 +33,8 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/birkancelik18/model_finetune_deploy.git
-    cd model_finetune_deploy
+    git clone https://github.com/birkancelik18/GPT2-Finetune-and-Deploy.git
+    cd GPT2-Finetune-and-Deploy
     ```
 
 2. Create and activate a conda environment:
