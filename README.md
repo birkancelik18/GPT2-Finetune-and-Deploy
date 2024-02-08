@@ -26,6 +26,8 @@ FastAPI is used to create a robust and efficient web API for serving the GPT-2 m
 
 A user interface has been implemented to facilitate interaction with the GPT-2 model. After running the FastAPI application, open the `index.html` file in your browser to access the user interface.
 
+![alt text](https://github.com/birkancelik18/GPT2-Finetune-and-Deploy/ui_image.png?raw=true) 
+
 ## Getting Started
 
 To get started with the project, follow these steps:
