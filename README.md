@@ -34,7 +34,7 @@ To get started with the project, follow these steps:
 
     ```bash
     git clone https://github.com/birkancelik18/model_finetune_deploy.git
-    cd your-repo
+    cd model_finetune_deploy
     ```
 
 2. Create and activate a conda environment:
@@ -50,13 +50,15 @@ To get started with the project, follow these steps:
     pip install -r requirements.txt
     ```
 
-4. Run the FastAPI application:
+4. Download this folder that has finetuned [model weights ](https://drive.google.com/file/d/1onuyIB5c72pqiTeHvXk_3NV7KuVLoLGO/view?usp=sharing).
+
+5. Run the FastAPI application:
 
     ```bash
     uvicorn main:app --reload
     ```
 
-5. Open the `index.html` file in your browser and start interacting with the model.
+6. Open the `index.html` file in your browser and start interacting with the model.
 
 ## API Endpoints
 
