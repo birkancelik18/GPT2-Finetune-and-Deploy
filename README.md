@@ -24,7 +24,7 @@ FastAPI is used to create a robust and efficient web API for serving the GPT-2 m
 
 ## User Interface
 
-A user interface has been implemented to facilitate interaction with the GPT-2 model. Users can input prompts and receive generated text in the Shakespearean style through a simple and intuitive interface.
+A user interface has been implemented to facilitate interaction with the GPT-2 model. After running the FastAPI application, open the `index.html` file in your browser to access the user interface.
 
 ## Getting Started
 
@@ -49,7 +49,7 @@ To get started with the project, follow these steps:
     uvicorn main:app --reload
     ```
 
-4. Access the user interface at `http://localhost:8000` and start interacting with the model.
+4. Open the `index.html` file in your browser and start interacting with the model.
 
 ## API Endpoints
 
