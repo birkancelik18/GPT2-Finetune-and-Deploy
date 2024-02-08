@@ -52,7 +52,7 @@ To get started with the project, follow these steps:
     pip install -r requirements.txt
     ```
 
-4. Download this folder that has finetuned [model weights ](https://drive.google.com/file/d/1onuyIB5c72pqiTeHvXk_3NV7KuVLoLGO/view?usp=sharing){:target="_blank"}.
+4. Download this folder that has finetuned [model weights ](https://drive.google.com/file/d/1onuyIB5c72pqiTeHvXk_3NV7KuVLoLGO/view?usp=sharing){:target="_blank"} .
 
 5. Run the FastAPI application:
 
