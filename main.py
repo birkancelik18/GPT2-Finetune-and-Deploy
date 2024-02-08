@@ -6,9 +6,13 @@ from pydantic import BaseModel
 
 class ShakespeareWriter:
     def talk_to_shakespeare(self):
-        response = {"message": "Hello World"}
+        response = {"message": "Hello World..."}
         return response
 
+class TextInput(BaseModel):
+    text: str
+
+    
 app = FastAPI()
 shakespeare = ShakespeareWriter()
 
@@ -38,11 +42,6 @@ def send_text_length(text: str):
 
     # Return the length as a JSON response
     return {"text_length": text_length}
-
-
-
-class TextInput(BaseModel):
-    text: str
 
 @app.post("/send-model-response")
 async def send_text_length(text_input: TextInput):
